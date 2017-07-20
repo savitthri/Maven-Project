@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testScenarios.DataDrivenTest">
+        <methods>
+          <include name="test2"/>
+          <include name="teadDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScenarios.DataDrivenTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Smoke suite] -->
